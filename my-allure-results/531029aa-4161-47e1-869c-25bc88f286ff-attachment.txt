@@ -1,0 +1,27 @@
+An error occurred: Timed out 5000ms waiting for expect(locator).toBeDisabled()
+
+Locator: locator('#loginpassword')
+Expected: disabled
+Received: enabled
+Call log:
+  - expect.toBeDisabled with timeout 5000ms
+  - waiting for locator('#loginpassword')
+  -   locator resolved to <input type="password" id="loginpassword" class="form-c…/>
+  -   unexpected value "enabled"
+  -   locator resolved to <input type="password" id="loginpassword" class="form-c…/>
+  -   unexpected value "enabled"
+  -   locator resolved to <input type="password" id="loginpassword" class="form-c…/>
+  -   unexpected value "enabled"
+  -   locator resolved to <input type="password" id="loginpassword" class="form-c…/>
+  -   unexpected value "enabled"
+  -   locator resolved to <input type="password" id="loginpassword" class="form-c…/>
+  -   unexpected value "enabled"
+  -   locator resolved to <input type="password" id="loginpassword" class="form-c…/>
+  -   unexpected value "enabled"
+  -   locator resolved to <input type="password" id="loginpassword" class="form-c…/>
+  -   unexpected value "enabled"
+  -   locator resolved to <input type="password" id="loginpassword" class="form-c…/>
+  -   unexpected value "enabled"
+  -   locator resolved to <input type="password" id="loginpassword" class="form-c…/>
+  -   unexpected value "enabled"
+
